@@ -1,0 +1,1 @@
+{"version":3,"file":"main.bundle.js","mappings":"mBAEAA,QAAQC,IAAI,WAAD,OCDFC,G","sources":["webpack://es-modules/./js/app.js","webpack://es-modules/./js/math.js"],"sourcesContent":["import { sum } from './math.js';\n\nconsole.log(`1 + 2 = ${sum(1, 2)}`);\n","export function sum(x, y) {\n  return x + y;\n}\n"],"names":["console","log","x"],"sourceRoot":""}
