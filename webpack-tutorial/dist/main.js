@@ -17312,7 +17312,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function component() {
     var element = document.createElement('div');
-    element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join(['Hello', 'webpack'], ' ');
+    element.innerHTML = (0,lodash__WEBPACK_IMPORTED_MODULE_0__.join)(['Hello', 'webpack'], ' ');
     return element;
 }
 
