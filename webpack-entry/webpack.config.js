@@ -9,4 +9,14 @@ module.exports = {
         filename: '[name].js',
         path: path.resolve(__dirname, 'dist'),
     },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                use: [
+                    path.resolve('./my-webpack-loader.js'),
+                ]
+            }
+        ]
+    }
 };

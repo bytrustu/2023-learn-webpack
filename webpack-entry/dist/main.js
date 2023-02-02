@@ -554,6 +554,7 @@ __webpack_require__.r(__webpack_exports__);
 
 document.addEventListener("DOMContentLoaded", () => {
   new _controllers_MainController_js__WEBPACK_IMPORTED_MODULE_0__["default"]();
+  alert('동작함');
 });
 
 })();
