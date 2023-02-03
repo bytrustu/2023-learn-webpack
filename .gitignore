@@ -5,3 +5,4 @@ code-splitting/node_modules
 es-modules/node_modules
 dev-server/node_modules
 webpack-entry/node_modules
+webpack-loader/node_modules
