@@ -1,18 +1,10 @@
-/*!
- * 
- *                 Build Date: 2/5/2023, 1:11:29 AM
- *                 Commit Version: 369cf2c
- *
- *                 Author: bytrustu
- *
- *
- */
 /*! 빌드 날짜: 2020. 1. 11. 오전 11:11:06 */
 .FormView {
   position: relative
 }
 
-.FormView input[type=text] {
+.FormView input[type=text],
+.FormView input {
   display: block;
   box-sizing: border-box;
   width: 100%;
@@ -39,7 +31,7 @@
   display: inline-block;
   height: 20px;
   width: 20px;
-  background: url(589ce4b7aa08ffe113c2.png?2a32eee45a9f280f743fb36b7c530d98) no-repeat 50%/contain;
+  background: url(images/times-circle.png?2a32eee45a9f280f743fb36b7c530d98) no-repeat 50%/contain;
   opacity: .15
 }
 
@@ -196,7 +188,7 @@
   display: inline-block;
   height: 20px;
   width: 20px;
-  background: url(589ce4b7aa08ffe113c2.png?2a32eee45a9f280f743fb36b7c530d98) no-repeat 50%/contain;
+  background: url(images/times-circle.png?2a32eee45a9f280f743fb36b7c530d98) no-repeat 50%/contain;
   opacity: .15
 }
 
@@ -403,4 +395,3 @@ header {
 .content {
   border: 1px solid #ddd
 }
-
